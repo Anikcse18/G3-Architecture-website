@@ -21,6 +21,7 @@
     background: #FF900E;
     color: #fff;
     border: none;
+    font-weight: 600;
     padding: 21px 25px;
     
 }
@@ -124,6 +125,46 @@ nav h3{
     
 }
 
-@media screen and (max-width = 576px) {
+
+/* Responsive layout for mobile */
+
+@media screen and (max-width: 576px) {
+    header{
+
+
+        padding: 15px;
+
+    }
+
+    nav{
+       
+        flex-direction: column;
+        
     
+    }
+    nav h3{
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive layout for tab or medium layout */
+
+
+@media screen and (min-width:576px) and (max-width: 960px){
+    nav{
+       
+        flex-direction: column;
+        
+    
+    }
+    nav h3{
+        margin-bottom: 20px;
+    }
+
+    header{
+
+
+        padding: 15px;
+
+    }
 }
