@@ -16,6 +16,14 @@
 /* Shared Style section */
 
 
+.primary-btn{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #fff;
+    border: none;
+    padding: 21px 25px;
+    
+}
 
 /* Shared Style section */
 
@@ -25,9 +33,10 @@
 
 header{
     background: rgba(255, 144, 14, 0.10);
+    
     padding: 50px 240px;
-
-
+    
+    
 }
 
 nav{
@@ -43,7 +52,7 @@ nav > ul{
 nav li {
 
     list-style: none;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 nav li a{
 
@@ -54,8 +63,6 @@ nav li a{
     text-align: center;
 
     font-size: 1rem;
-
-    font-style: normal;
 
     font-weight: 500;
 
@@ -68,4 +75,55 @@ nav h3{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+
+/* Banner Section */
+
+
+
+.banner-content{
+
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+  
+}
+
+
+
+.banner-content h1{
+
+    color:  #131313;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 700;
+   
+}
+
+
+.banner-content p{
+
+    color: #727272;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+
+    font-size: 1rem;
+   
+    font-weight: 400;
+    line-height: 26px; 
+   
+}
+.banner-image{
+
+    
+    width: 100%;
+    
+}
+
+@media screen and (max-width = 576px) {
+    
 }
