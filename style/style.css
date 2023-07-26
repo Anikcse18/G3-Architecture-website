@@ -424,6 +424,21 @@ main{
         
     }
 
+
+    .experience-badge{
+
+        width: 170px;
+        border-radius: 4px;
+        padding: 13px;
+        position: static;
+        /* position: relative;
+        bottom: 100px;
+        right: 60px; */
+        background: #FF900E;
+        text-align: center;
+    
+    }
+
     .features-image img{
         width: 300px;
         height: auto;
@@ -462,6 +477,29 @@ main{
         flex-direction: column;
     
     }
+
+    .experience-badge{
+
+        width: 170px;
+        border-radius: 4px;
+        padding: 13px;
+        position: static;
+        /* position: relative;
+        bottom: 100px;
+        right: 60px; */
+        background: #FF900E;
+        text-align: center;
+    
+    }
+
+    .features-image img{
+        width: 300px;
+        height: auto;
+        
+    }
+
+
+
     .sponsor-image img{
 
         padding: 30px 150px;
