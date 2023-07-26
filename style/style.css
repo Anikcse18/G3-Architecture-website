@@ -257,6 +257,103 @@ main{
 }
 
 
+/* Features-container */
+.features-details{
+    margin: 10px 0;
+}
+
+
+.features-container{
+
+    margin-top: 80px;
+    padding: 0 120px;
+    display: flex;
+    
+    gap: 100px;
+    
+
+}
+.features-title{
+
+    color:  #131313;
+    border-left: 3px solid #FF900E;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 15px;
+
+}
+
+.features-cart{
+
+    margin: 20px;
+    border-radius: 12px;
+    padding:20px;
+    background: #FFF;
+    box-shadow: 0px 7px 40px 0px rgba(0, 0, 0, 0.06);
+}
+
+.features-cart-title{
+
+    color:  #131313;
+    font-size: 1.3rem;
+    font-weight: 600;
+   
+
+}
+
+
+.features-cart-details{
+
+    color:  #727272;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 1.5rem; /* 162.5% */
+
+}
+
+.features-image img{
+
+    width: 500px;
+    height: auto;
+    
+}
+
+
+.experience-badge{
+    width: 180px;
+    border-radius: 4px;
+    padding: 13px;
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+    background: #FF900E;
+    text-align: center;
+
+}
+.badge-title{
+    color: #FFF;
+    
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+}
+
+.badge-details{
+
+    
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+
+
+
 /* sponsar section */
 
 
@@ -267,18 +364,18 @@ main{
 }
 
 .sponsor-image{
-    
 
-    
     display: flex;
     padding: 0 50px;
     margin-top: 60px;
     justify-content: space-evenly;
+    align-items: center;
 
 }
 
+
 .sponsor-image img{
-    
+    width: 160px;
     filter: grayscale(100%);
 
 }
@@ -299,9 +396,6 @@ main{
 
 .footer-details{
     color:  #424242;
-   
-    
-   
 
     font-weight: 400;
 
@@ -324,12 +418,18 @@ main{
 
     }
 
-    nav, .quicklist-container, .somefacts-cart, .sponsor-image{
+    nav, .quicklist-container, .somefacts-cart, .sponsor-image, .features-container{
        
         flex-direction: column;
         
     }
 
+    .features-image img{
+        width: 300px;
+        height: auto;
+        
+    }
+    
     .sponsor-image img{
 
         padding: 30px 150px;
@@ -357,7 +457,7 @@ main{
 
 
 @media screen and (min-width:576px) and (max-width: 960px){
-    nav, .quicklist-container, .sponsor-image{
+    nav, .quicklist-container, .sponsor-image, .features-container{
        
         flex-direction: column;
     
